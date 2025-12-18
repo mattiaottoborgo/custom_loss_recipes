@@ -1,0 +1,9 @@
+defaults:
+  - _self_
+  - model: smollm3
+  - dataset: recipenlg_smollm3
+  - trainer: recipenlg-extended
+experiment_name: SmolLM3-3B-CrossEntropyLoss-RecipeNLG
+log_comet: true
+task: question_answering
+max_source_length: 1024

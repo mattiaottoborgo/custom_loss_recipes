@@ -1,0 +1,9 @@
+defaults:
+  - _self_
+  - model: qwen3-8b
+  - dataset: recipenlg_qwen3-8b
+  - trainer: recipenlg-topological
+experiment_name: Qwen3-8B-Topological-RecipeNLG
+log_comet: true
+task: question_answering
+max_source_length: 450

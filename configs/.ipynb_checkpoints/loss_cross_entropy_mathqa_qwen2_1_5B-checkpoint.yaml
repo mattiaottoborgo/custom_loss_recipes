@@ -1,0 +1,9 @@
+defaults:
+  - _self_
+  - model: qwen2-1_5b
+  - dataset: mathqa_qwen2-1_5b
+  - trainer: math_qa_cross_entropy
+experiment_name: Qwen2-1.5B-CrossEntropyLoss-MathQA
+log_comet: true
+task: gsm
+max_source_length: 1024

@@ -1,0 +1,11 @@
+defaults:
+  - _self_
+  - model: qwen3-4b
+  - dataset: recipenlg_qwen3-4b-multitask
+  - trainer: recipenlg_dice_loss
+experiment_name: Qwen3-4B-Dice-MultiTask-RecipeNLG
+log_comet: true
+task: question_answering
+multitask: True
+dataset_source: curated_dataset
+max_source_length: 450

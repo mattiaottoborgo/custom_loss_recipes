@@ -1,0 +1,11 @@
+defaults:
+  - _self_
+  - model: qwen3-4b
+  - dataset: recipenlg_qwen3-4b
+  - trainer: recipenlg-mixed-restricted-ingredients
+experiment_name: Qwen3-4B-mixed-restricted-ingredients-RecipeNLG
+log_comet: true
+task: question_answering
+multitask: True
+dataset_source: curated_dataset
+max_source_length: 450

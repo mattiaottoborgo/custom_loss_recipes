@@ -1,0 +1,9 @@
+defaults:
+  - _self_
+  - model: qwen3-4b
+  - dataset: recipenlg_qwen3-4b
+  - trainer: recipenlg-focal-ingredients
+experiment_name: Qwen3-4B-FocalIngredients-RecipeNLG
+log_comet: true
+task: question_answering
+max_source_length: 450

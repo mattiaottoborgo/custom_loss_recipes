@@ -1,0 +1,11 @@
+defaults:
+  - _self_
+  - model: qwen3-4b
+  - dataset: recipenlg_qwen3-4b-multitask_6250
+  - trainer: recipenlg
+experiment_name: Qwen3-4B-CrossEntropyLoss-long-RecipeNLG
+log_comet: true
+task: question_answering
+multitask: True
+dataset_source: curated_dataset_6250
+max_source_length: 450

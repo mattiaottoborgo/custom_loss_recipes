@@ -1,0 +1,6 @@
+train_set_file: 
+  gsm: "data/recipe_nlg/qwen2-1_5b/train.parquet"
+val_set_file: 
+  gsm: "data/recipe_nlg/qwen2-1_5b/validation.parquet"
+test_set_file: 
+  gsm: "data/recipe_nlg/qwen2-1_5b/test.parquet"
