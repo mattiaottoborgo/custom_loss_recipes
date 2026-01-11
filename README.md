@@ -1,6 +1,6 @@
 # Custom Loss Functions for Structured Recipe Generation
 
-Research codebase for fine-tuning Small Language Models (SLMs) with custom loss functions optimized for structured recipe generation. This project demonstrates that carefully designed loss functions can significantly improve ingredient recall, quantity precision, and procedural accuracy without increasing model size or inference-time complexity.
+Research codebase for paper "Losses that Cook: Topological Optimal Transport for Structured Recipe Generation", currently under Review in ACL (link to research: https://arxiv.org/abs/2601.02531). with custom loss functions optimized for structured recipe generation. This project demonstrates that carefully designed loss functions can significantly improve ingredient recall, quantity precision, and procedural accuracy without increasing model size or inference-time complexity.
 
 ## 🎯 Problem Statement
 
